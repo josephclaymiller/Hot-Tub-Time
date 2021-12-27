@@ -12,7 +12,7 @@ The following functionality is completed:
 - [x] User can add test strip to list
 - [x] User can remove test strip from list
 - [x] User can view details of a test strip on the list
-- [x] User can keep data from previous uses of app
+- [x] User keeps data from previous uses of app
 
 Future features:
 
