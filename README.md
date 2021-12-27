@@ -20,7 +20,7 @@ Future features:
 - [ ] User recieves a notification when time to add chemicals
 
 
-## Video Walkthroughs
+## Video Walkthrough
 
 Here is a walkthrough of implemented user stories:
 
