@@ -1,5 +1,5 @@
 # Hot Tub Time
-An iOS app to for testing hot tub water. 
+An iOS app for testing hot tub water. 
 This simple app tracks your test strip readings.
 
 Time spent: **4** hours spent in total
