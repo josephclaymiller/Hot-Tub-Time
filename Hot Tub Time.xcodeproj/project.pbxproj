@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		CD7631752770E7F00075F348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7631742770E7F00075F348 /* AppDelegate.swift */; };
 		CD7631772770E7F00075F348 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7631762770E7F00075F348 /* SceneDelegate.swift */; };
-		CD7631792770E7F00075F348 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7631782770E7F00075F348 /* ViewController.swift */; };
 		CD76317C2770E7F00075F348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD76317A2770E7F00075F348 /* Main.storyboard */; };
 		CD76317E2770E7F60075F348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD76317D2770E7F60075F348 /* Assets.xcassets */; };
 		CD7631812770E7F60075F348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD76317F2770E7F60075F348 /* LaunchScreen.storyboard */; };
 		CD76318C2770E7F60075F348 /* Hot_Tub_TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD76318B2770E7F60075F348 /* Hot_Tub_TimeTests.swift */; };
 		CD7631962770E7F60075F348 /* Hot_Tub_TimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7631952770E7F60075F348 /* Hot_Tub_TimeUITests.swift */; };
 		CD7631982770E7F60075F348 /* Hot_Tub_TimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7631972770E7F60075F348 /* Hot_Tub_TimeUITestsLaunchTests.swift */; };
+		CD7631A52770E8B00075F348 /* TestStripTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7631A42770E8B00075F348 /* TestStripTableViewController.swift */; };
+		CD7631A72770E9490075F348 /* TestStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7631A62770E9490075F348 /* TestStrip.swift */; };
+		CD7631A92770F4990075F348 /* TestStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7631A82770F4990075F348 /* TestStripViewController.swift */; };
+		CD7631AB2770F4A70075F348 /* AddTestStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7631AA2770F4A70075F348 /* AddTestStripViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,6 @@
 		CD7631712770E7F00075F348 /* Hot Tub Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hot Tub Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7631742770E7F00075F348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD7631762770E7F00075F348 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CD7631782770E7F00075F348 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD76317B2770E7F00075F348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD76317D2770E7F60075F348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD7631802770E7F60075F348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		CD7631912770E7F60075F348 /* Hot Tub TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hot Tub TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7631952770E7F60075F348 /* Hot_Tub_TimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hot_Tub_TimeUITests.swift; sourceTree = "<group>"; };
 		CD7631972770E7F60075F348 /* Hot_Tub_TimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hot_Tub_TimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD7631A42770E8B00075F348 /* TestStripTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStripTableViewController.swift; sourceTree = "<group>"; };
+		CD7631A62770E9490075F348 /* TestStrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStrip.swift; sourceTree = "<group>"; };
+		CD7631A82770F4990075F348 /* TestStripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStripViewController.swift; sourceTree = "<group>"; };
+		CD7631AA2770F4A70075F348 /* AddTestStripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTestStripViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +107,11 @@
 			children = (
 				CD7631742770E7F00075F348 /* AppDelegate.swift */,
 				CD7631762770E7F00075F348 /* SceneDelegate.swift */,
-				CD7631782770E7F00075F348 /* ViewController.swift */,
 				CD76317A2770E7F00075F348 /* Main.storyboard */,
+				CD7631A82770F4990075F348 /* TestStripViewController.swift */,
+				CD7631AA2770F4A70075F348 /* AddTestStripViewController.swift */,
+				CD7631A62770E9490075F348 /* TestStrip.swift */,
+				CD7631A42770E8B00075F348 /* TestStripTableViewController.swift */,
 				CD76317D2770E7F60075F348 /* Assets.xcassets */,
 				CD76317F2770E7F60075F348 /* LaunchScreen.storyboard */,
 				CD7631822770E7F60075F348 /* Info.plist */,
@@ -258,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD7631792770E7F00075F348 /* ViewController.swift in Sources */,
+				CD7631A72770E9490075F348 /* TestStrip.swift in Sources */,
 				CD7631752770E7F00075F348 /* AppDelegate.swift in Sources */,
+				CD7631A92770F4990075F348 /* TestStripViewController.swift in Sources */,
+				CD7631A52770E8B00075F348 /* TestStripTableViewController.swift in Sources */,
+				CD7631AB2770F4A70075F348 /* AddTestStripViewController.swift in Sources */,
 				CD7631772770E7F00075F348 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +459,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +488,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
