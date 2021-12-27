@@ -17,7 +17,7 @@ The following functionality is completed:
 Future features:
 
 - [ ] User can use camera to add a new strip
-- [ ] User recieves a notification when time to add chemicals
+- [ ] User recieves notification when time to add chemicals
 
 
 ## Video Walkthrough
